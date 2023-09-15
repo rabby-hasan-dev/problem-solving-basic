@@ -25,10 +25,11 @@ console.log( 'The result of mindGame is', inputNumber);
 
 function evenOdd(stringValue){
     const totalCharacter= stringValue.length;
+        
     const reminder= totalCharacter % 2;
     const  evenNumber='Even Number';
     const oddNumber='Odd Number';
-    if (reminder ==0){
+    if (reminder == 0){
         return evenNumber;
     }
     else{
@@ -36,7 +37,7 @@ function evenOdd(stringValue){
     }
   
  }
- const stringName= evenOdd('phero');
+ const stringName= evenOdd('pher');
  console.log(stringName);
 
 
@@ -47,7 +48,7 @@ function evenOdd(stringValue){
 function isLGSeven(number){
     const subtract= number-7;
     if(subtract>=7){
-        const toCount= subtract*2;
+        const toCount= number*2;
        
         return toCount;
     }
@@ -57,7 +58,7 @@ function isLGSeven(number){
     }
 
 }
-const isLGSevenInputNumber=isLGSeven(6);
+const isLGSevenInputNumber=isLGSeven(15);
 console.log( 'isLGSeven result is', isLGSevenInputNumber);
 
 
